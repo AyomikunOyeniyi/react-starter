@@ -9,7 +9,7 @@ function App() {
       <Header></Header>
       <main>
         <section id="core-concepts">
-        <h2>Time to get started!</h2>
+        <h2>Core Concepts</h2>
         <ul>
          <CoreConcept
          title = {CORE_CONCEPTS[0].title}
