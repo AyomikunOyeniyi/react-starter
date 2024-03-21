@@ -1,7 +1,7 @@
 import CoreConcept from "./components/CoreConcept";
 import { CORE_CONCEPTS } from "./assets/data";
 import Header from "./components/Header";
-
+import TabButton from "./components/TabButton";
 
 function App() {
   return (
@@ -31,7 +31,9 @@ function App() {
          />
         </ul>
         </section>
-        
+        <section id="examples">
+          <TabButton></TabButton>
+        </section>
       </main>
     </div>
   );
